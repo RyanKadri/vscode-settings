@@ -1,0 +1,55 @@
+{
+    "git.enableSmartCommit": true,
+    "yaml.customTags": [
+        "!And",
+        "!If",
+        "!Not",
+        "!Equals",
+        "!Or",
+        "!FindInMap",
+        "!Base64",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!Select",
+        "!Split",
+        "!Join"
+    ],
+    // Enable/disable default YAML formatter (requires restart)
+    "yaml.format.enable": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "search.exclude": {
+        "**/dist": true,
+        "**/node_modules": false,
+        "**/node_modules/**": true
+    },
+    "files.watcherExclude": {
+        "**/dist": true
+    },
+    "editor.wordBasedSuggestions": false,
+    "jsDocCompletion.enabled": false,
+    "javascript.suggest.enabled": false,
+    "emmet.showAbbreviationSuggestions": false,
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.snippetSuggestions": "bottom",
+    "editor.codeActionsOnSave": {
+    },
+    "emmet.excludeLanguages": [
+        "javascriptreact"
+    ],
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    "gitlens.mode.active": "zen",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "debug.toolBarLocation": "docked",
+    "breadcrumbs.enabled": true,
+    "javascript.preferences.quoteStyle": "double",
+    "typescript.preferences.quoteStyle": "double",
+    "tslint.autoFixOnSave": true,
+    "terminal.integrated.rendererType": "dom",
+    "git.confirmSync": false,
+    "tslint.alwaysShowRuleFailuresAsWarnings": true
+}
